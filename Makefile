@@ -10,7 +10,7 @@ build:
 
 .PHONY: test
 test:
-	docker run --rm $(IMAGE) packer -v
+	docker run --rm $(IMAGE) version
 
 .PHONY: push
 push:
