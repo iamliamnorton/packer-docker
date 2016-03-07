@@ -1,7 +1,7 @@
 FROM alpine:3.3
 MAINTAINER Liam Norton
 
-ENV VERSION 0.8.6
+ENV VERSION 0.9.0
 
 RUN \
   apk update &&\
